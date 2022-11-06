@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+                              /*  1st Page  */
+
+
+#main_div1{
+    
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+}
+#internal1{
+    background-color: rgb(204, 244, 244);
+    position: absolute;
+    margin: auto;
+    margin-top:1vw ;
+    margin-left: 27vw;
+    text-align: center;
+    width: 44vw;
+    height: fit-content;
+}
+input{
+    margin-bottom: 0.5vw;
+}
+
+
+                                /*  2nd Page  */
+
+
+#internal2{
+    background-color: rgb(204, 244, 244);
+    text-align: left;
+    width: 60vw;
+    height: 70vh;
+    margin: auto;
+}
+
+#hsc_instname{
+    text-align: left;
+    margin-left: 8vw;
+    margin-top: 5vw;
+    position: absolute;
+    font-size: 1.2vw;
+}
+
+#hsc_brdname{
+    text-align: left;
+    margin-left: 25.7vw;
+    margin-top: 5vw;
+    position: absolute;
+    font-size: 1.2vw;
+}
+
+#hsc_score{
+    text-align: left;
+    margin-left: 43.3vw;
+    margin-top: 5vw;
+    position: absolute;
+    font-size: 1.2vw;
+}
+
+#HSC_name{
+    margin-top: 7vw;
+    width: 15vw;
+    margin-left: 8vw;
+}
+
+#HSC_brd_name{
+    width: 15vw;
+    margin-left: 2vw;
+}
+
+#HSC_score{
+    width: 6vw;
+    margin-left: 2vw;
+}
+
+#ssc_instname{
+    text-align: left;
+    margin-left: 8vw;
+    margin-top: 1vw;
+    position: absolute;
+    font-size: 1.2vw;
+}
+
+#ssc_brdname{
+    text-align: left;
+    margin-left: 25.7vw;
+    margin-top: 1vw;
+    position: absolute;
+    font-size: 1.2vw;
+}
+
+#ssc_score{
+    text-align: left;
+    margin-left: 43.3vw;
+    margin-top: 1vw;
+    position: absolute;
+    font-size: 1.2vw;
+}
+
+#SSC_name{
+    width: 15vw;
+    margin-left: 8vw;
+    margin-top: 2.9vw;
+}
+
+#SSC_brd_name{
+    width: 15vw;
+    margin-left: 2vw;
+}
+
+#SSC_score{
+    width: 6vw;
+    margin-left: 2vw;
+}
+
+#cur_stdy{
+    text-align: left;
+    margin-left: 8vw;
+    margin-top: 1vw;
+    position: absolute;
+    font-size: 1.2vw;
+}
+
+#cur_inst{
+    text-align:left;
+    margin-left: 25.8vw;
+    margin-top: 1vw;
+    position: absolute;
+    font-size: 1.2vw;
+}
+
+#ovrl_score{
+    text-align:left;
+    margin-left: 43.3vw;
+    margin-top: 1vw;
+    position: absolute;
+    font-size: 1.2vw;
+}
+
+#cur_course{
+    width: 15vw;
+    margin-left: 8vw;
+    margin-top: 3vw;
+}
+
+#cur_inst_name{
+    width: 15vw;
+    margin-left: 2vw;
+}
+
+#overall_prsntg{
+    width: 6vw;
+    margin-left: 2vw;
+}
+
+#backlogs{
+    text-align: left;
+    margin-left: 8vw;
+    margin-top: 1vw;
+    font-size: 1.2vw;
+}
+
+#rd_button{
+    margin-left: 1vw;
+    margin-top: 0vw;
+}
+
+#nxt_btn{
+    background-color:rgb(114, 215, 215);
+    margin-left: 25vw;
+    margin-top: 5vw;
+    width: 7vw;
+    height: 2vw;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#nxt_btn:hover{
+    background-color: blue;
+}
+
+                                /*  3rd page  */
+
+
+
+/* .container{
+    background-color: rgb(204, 244, 244);
+    margin-top: 32vh;
+    width: 50vw;
+    text-align:center ;
+}
+*/
+#submit{
+    background-color:rgb(204, 244, 244);
+    font-size: 1.2vw;
+    position: absolute;
+    margin-left: 50.3vw;
+    margin-top: 2vw;
+    width: 7vw;
+    height: 2vw;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: blue;
+    color: white;
+    border: 3px solid green;
+    transition: 0.5s;
+    font-weight: bold;
+} 
+
+.container{
+    /* background-color: white; */
+    width: 100%;
+    font-size: 1.5vw;
+    text-align: left;
+    height: fit-content;
+    margin: auto;
+    margin-top: 10vw;
+    padding-top: 7vw;
+}
+label{
+    font-size: 1.5vw;
+    display: inline-block;
+    width: 50%;
+    text-align:right;
+}
